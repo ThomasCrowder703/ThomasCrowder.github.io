@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    background-image:url("../img/693b1624c9c2a3d49c9b52ade79f0b68.gif");
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#my-name{
+    font-family: 'Metal Mania', cursive;
+    font-size: 3em;
+    color: white;
+}
