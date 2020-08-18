@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 nav{
     background-image:url("../img/693b1624c9c2a3d49c9b52ade79f0b68.gif");
@@ -14,4 +15,41 @@ nav{
     font-family: 'Metal Mania', cursive;
     font-size: 3em;
     color: white;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px 45px 40px 40px;
+    font-size: 30px;
+    color: #720572;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    border: 5px solid #720572;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+    border-radius:100px;
+    transition:1.5s;
+    display: flex;
+    flex-basis: 100%;
+
+}
+
+.button:hover{
+    box-shadow: 0 5px 50px 0 #720572 inset, 0 5px 50px 0 #720572,
+                0 5px 50px 0 #720572 inset, 0 5px 50px 0 #720572;
+    text-shadow: 0 0 5px #720572,0 0 5px #720572;
 }
