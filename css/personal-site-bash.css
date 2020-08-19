@@ -24,9 +24,20 @@ nav{
     transform: translate(-50%,-50%);
 }
 
+section>div>h2{
+    display: flex;
+    justify-content: center;
+    padding: .25em;
+}
+
+section>div>ul{
+    list-style-type: circle;
+    margin-left: calc(1em + 5px);
+}
 body{
     margin: 0;
     padding: 0;
+    background-color: azure;
 }
 .button{
     position: relative;
