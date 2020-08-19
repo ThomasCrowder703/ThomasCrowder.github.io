@@ -64,3 +64,37 @@ body{
                 0 5px 50px 0 #720572 inset, 0 5px 50px 0 #720572;
     text-shadow: 0 0 5px #720572,0 0 5px #720572;
 }
+
+@media screen and (max-width:768px) and (min-width:320px){
+    section>div>h2{
+        display: flex;
+        justify-content: center;
+        padding: .25em;
+        font-size: 2em;
+    }
+    section>div>ul{
+        list-style-type: circle;
+        margin-left: calc(1em + 5px);
+        margin-bottom: 1em;
+    }
+
+    .button{
+        position: relative;
+        text-align: center;
+        width: 250px;
+        padding: 40px 45px 40px 40px;
+        font-size: 30px;
+        color: #720572;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 400;
+        border: 5px solid #720572;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        cursor: pointer;
+        border-radius:100px;
+        transition:1.5s;
+        display: flex;
+        flex-basis: 100%;
+        margin-top: 2em;
+    }
+}
