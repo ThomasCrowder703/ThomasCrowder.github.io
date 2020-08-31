@@ -39,7 +39,7 @@ body{
     padding: 0;
     background-color: azure;
 }
-.button{
+#button{
     position: relative;
     text-align: center;
     width: 250px;
@@ -59,10 +59,16 @@ body{
 
 }
 
-.button:hover{
+#button:hover{
     box-shadow: 0 5px 50px 0 #720572 inset, 0 5px 50px 0 #720572,
                 0 5px 50px 0 #720572 inset, 0 5px 50px 0 #720572;
     text-shadow: 0 0 5px #720572,0 0 5px #720572;
+}
+
+.style-select{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:768px) and (max-width:385px){
