@@ -41,6 +41,16 @@
         <div id="button">Button</div>
     </div>
 
-<script src="js/personal-site-bash.js"></script>
+<!--<script src="js/personal-site-bash.js"></script>-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script>
+    $('#button1').click(function() {
+        $("h2, .languages, #firstParagraph").css("color", "white");
+        $("body").css("background-color", "rgb(29,29,29)")
+        $("nav").css("background-image","none")
+        $(this).text("Day Mode")
+    });
+
+</script>
 </body>
 </html>
