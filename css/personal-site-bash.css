@@ -4,7 +4,7 @@
     padding: 0;
 }
 nav{
-    background-image:url("../img/693b1624c9c2a3d49c9b52ade79f0b68.gif");
+    background-color: #7e01a8;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -79,6 +79,16 @@ body{
     border: none;
     padding: 5px;
 }
+
+.changeText{
+    color: white;
+    background-color: rgb(29,29,29) ;
+}
+.changeBody{
+    background-color: rgb(29,29,29);
+}
+
+
 
 @media screen and (max-width:768px) and (max-width:385px){
     section>div>h2{

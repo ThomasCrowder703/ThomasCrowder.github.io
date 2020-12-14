@@ -5,6 +5,7 @@
     <title>ThomasCrowder703</title>
     <link rel="stylesheet" href="css/personal-site-bash.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 <header>
@@ -15,10 +16,6 @@
 <section>
     <div class="style-select">
         <button id="button1">Night mode</button>
-        <button id="button2">Button 2</button>
-        <button id="button3">Button 3</button>
-        <button id="button4">Button 4</button>
-        <button id="button5">Button 5</button>
     </div>
 
     <div>
@@ -31,6 +28,10 @@
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Thymeleaf</li>
+            <li>MySql</li>
             <li>English!</li>
         </ul>
     </div>
@@ -38,17 +39,18 @@
 </section>
 
     <div class="container">
-        <div id="button">Button</div>
+        <div id="button">HOVER!</div>
     </div>
 
 <!--<script src="js/personal-site-bash.js"></script>-->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script>
     $('#button1').click(function() {
-        $("h2, .languages, #firstParagraph").css("color", "white");
-        $("body").css("background-color", "rgb(29,29,29)")
-        $("nav").css("background-image","none")
-        $(this).text("Day Mode")
+        $("h2, .languages, #firstParagraph, nav").toggleClass("changeText");
+        $("body").toggleClass("changeBody");
+        // $("nav").css("background-image","none")
+        // $(this).text("Day Mode")
+
     });
 
 </script>
